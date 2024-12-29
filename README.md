@@ -24,7 +24,6 @@ This project implements a data pipeline for the Macedonian Stock Exchange (MSE) 
 - Albin Kafexhiu (211515)
 - Ajla Zenuni (223199)
 
-
-![Screenshot 2024-11-10 at 15.29.16.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F3f%2F86f02mgx2dg5ktkcr0mt2m800000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_4h6IGI%2FScreenshot%202024-11-10%20at%2015.29.16.png)
+![Screenshot 2024-11-10 at 15.29.16.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F3f%2F86f02mgx2dg5ktkcr0mt2m800000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_4h6IGI%2FScreenshot%202024-11-10%20at%2015.29.16.png "time")
 
 

@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pandas
+python-dotenv
+mysql-connector-python
+xlsxwriter
+selenium
+numpy
+matplotlib
+spacy
+Flask
+ta
