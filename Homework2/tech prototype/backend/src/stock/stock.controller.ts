@@ -1,9 +1,13 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { StockService } from './stock.service';
+import { TechnicalAnalysisService } from './technical-analysis.service';
 
 @Controller('stocks')
 export class StockController {
-  constructor(private readonly stockService: StockService) {}
+  constructor(
+    private readonly stockService: StockService,
+    private readonly technicalAnalysisService: TechnicalAnalysisService,
+  ) {}
 
   @Get('symbols')
   getSymbols() {
@@ -27,5 +31,22 @@ export class StockController {
   @Get('market/summary')
   getMarketSummary() {
     return this.stockService.getMarketSummary();
+  }
+  @Get(':symbol/analysis')
+  getTechnicalAnalysis(
+    @Param('symbol') symbol: string,
+    @Query('period') period: string,
+  ) {
+    return this.technicalAnalysisService.getTechnicalAnalysis(symbol, period);
+  }
+
+  @Get(':symbol/analysis/all-periods')
+  getAllPeriodAnalysis(@Param('symbol') symbol: string) {
+    return this.technicalAnalysisService.getAllPeriodAnalysis(symbol);
+  }
+
+  @Get('analysis/indicators')
+  getAvailableIndicators() {
+    return this.technicalAnalysisService.getAvailableIndicators();
   }
 }

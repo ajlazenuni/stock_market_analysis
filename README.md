@@ -1,5 +1,7 @@
 # MSE Stock Market Analysis
 
+# YOUTUBE LINK FOR HOMEWORK 3 : https://youtu.be/pdeFrWTXTFs
+
 ## Project Overview
 This project implements a data pipeline for the Macedonian Stock Exchange (MSE) using the Pipe and Filter architectural pattern.
 
